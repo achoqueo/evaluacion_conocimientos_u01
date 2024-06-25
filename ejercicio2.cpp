@@ -19,5 +19,15 @@ int main(){
 	} else{
 		cout<<"Son Pesi."<<endl;
 	}
+	if(n1%2==0){
+		cout<<"El numero "<<n1<<" es par."<<endl;
+	} else{
+		cout<<"El numero "<<n1<<" es impar."<<endl;
+	}
+	if(n2%2==0){
+		cout<<"El numero "<<n2<<" es par."<<endl;
+	} else{
+		cout<<"El numero "<<n2<<" es impar."<<endl;
+	}
     return 0;
 }
