@@ -31,6 +31,10 @@ int main() {
             cout<<"La division es "<<r<<endl;
             system("pause");
             break;
+        default:
+        	cout<<"Error, opcion invalida."<<endl;
+        	system("pause");
+        	break;
     }
 
     return 0;
