@@ -27,10 +27,12 @@ int main() {
             system("pause");
             break;
         case '/':
-            r=num1/num2;
-            cout<<"La division es "<<r<<endl;
-            system("pause");
-            break;
+            if(op!=0){
+            	r=num1/num2;
+            	cout<<"La division es "<<r<<endl;
+			}else {
+				cout<<"La división no existe."<<endl;
+			}
         default:
         	cout<<"Error, opcion invalida."<<endl;
         	system("pause");
